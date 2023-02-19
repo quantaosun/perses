@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.2.2-runtime-ubuntu20.04
+FROM nvidia/cuda:11.2.2-runtime-ubuntu20.04@sha256:9b35b21592738c4a4c552c9f8f96d864f3b3b995a0b98d67ab23afd828d89fb3
 
 # Use bash for all RUN directives
 SHELL ["/bin/bash", "-c"]
